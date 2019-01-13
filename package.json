@@ -1,21 +1,11 @@
 {
-  "name": "gatsby-advanced-blog",
-  "version": "0.2.3",
-  "description": "Gatsby starter for advanced blog",
+  "name": "therne-github.io",
+  "version": "0.1.0",
+  "description": "My comfortable blog",
   "main": "n/a",
-  "author": "wonism",
-  "license": "MIT",
-  "homepage": "https://github.com/wonism/gatsby-advanced-blog",
-  "keywords": [
-    "gatsby"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wonism/gatsby-advanced-blog.git"
-  },
-  "bugs": {
-    "url": "https://github.com/wonism/gatsby-advanced-blo/issues"
-  },
+  "author": "therne",
+  "homepage": "https://therne.github.io",
+  "private": true,
   "peerDependencies": {
     "gatsby": ">=2.0.8",
     "react": ">=16.3.0",
@@ -80,7 +70,7 @@
     "clean": "rm -rf .cache && rm -rf public",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+    "deploy": "gatsby build && gh-pages -d public -b master",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": [
